@@ -26,3 +26,14 @@ botaoDeAcessibilidade.addEventListener('click', function (){
     })
 
 })
+
+
+//Código omitido
+
+const botaoSelecionado = botaoDeAcessibilidade.getAttribute('aria-expanded') === 'true';
+botaoDeAcessibilidade.setAttribute('aria-expanded', !botaoSelecionado)
+
+//Código omitido
+
+
+<section id="galeria" tabindex="0" aria-label="Seção de galeria de imagens">
